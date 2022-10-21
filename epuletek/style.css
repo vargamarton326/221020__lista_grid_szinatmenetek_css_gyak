@@ -1,0 +1,47 @@
+.grid{
+    display: grid;
+    grid-template-areas:
+        'row1 row2 row3'
+        'row4 row5 row6'
+        'row7 row8 row9';
+    gap: 10px;
+    padding: 10px;
+}
+
+
+body{
+    background-color: #2196F3;
+    background-image: linear-gradient(#7db9e8, #1e5799);
+}
+
+div{
+    border-bottom: 5px dotted red;
+    border: 5px solid red;
+    padding: 5px;
+    background-image: linear-gradient(#ff7f50, #ffdead);
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    color: #2f4f4f;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: dotted, underline;
+    color: #2f4f4f;
+}
+
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 160px;
+    border-radius: 8px;
+    float: center;
+}
